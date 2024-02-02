@@ -1,0 +1,25 @@
+.error{
+    border:1px solid black;
+    height:100vh;
+    display : flex;
+    flex-direction: column;
+    justify-content : center;
+    align-items: center;
+    background-color:gray;
+}
+
+.errorP{
+    border:1px solid black;
+    width: 60%;
+    height:500px;
+    display : flex; 
+    flex-direction: column;
+    justify-content : center;
+    align-items: center;
+    font-size : 50px;
+   background-color:white;
+}
+
+.errorP h2{
+  color: red;
+}

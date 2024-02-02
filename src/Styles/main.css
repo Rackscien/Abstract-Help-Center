@@ -1,0 +1,46 @@
+
+.main{
+     /* border : 1px solid black; */
+     /* background-color : black; */
+}
+.parentB{
+    /* border : 1px solid black; */
+    display: flex;
+    justify-content: center;
+    gap : 20px;
+    margin: 50px;
+}
+.box{
+    /* border : 1px solid black; */
+    width: 40vw;
+    /* height : 150px; */
+    /* background-color: gray; */
+    marigin: 10px;
+    display: flex;
+    box-shadow: 1px 1px 9px black;
+
+}
+
+.image{
+    
+    padding : 10px;
+    padding-top : 20px;
+    /* background-color : blue; */
+    /* width: 30%; */
+    /* height : 150px; */
+}
+
+.imgCont{
+    padding : 10px;
+    text-align : justify;
+
+}
+#a{
+    font-size:15px;
+    color : blue;
+}
+#a:hover{
+    cursor: pointer;
+    color : gray;
+    text-decoration : underline;
+}

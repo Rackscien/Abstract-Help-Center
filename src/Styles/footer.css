@@ -1,0 +1,42 @@
+*{
+    /* margin:0; */
+}
+.foot{
+    border: 1px solid black;
+    display: flex;
+    justify-content : space-evenly;
+    height : 350px;
+    background-color: black;
+    color:white;
+    padding: 30px;
+
+}
+
+.boxf{
+    width: 10vw;
+    display : flex;
+    flex-direction : column;
+    jstify-content:center;
+    align-items: center;
+    
+    border: 1px solid black;
+}
+.foot p{
+    margin:1px;
+}
+
+#b{
+    padding-top : 150px;
+
+}
+.foot p:hover{
+ cursor: pointer;
+ color : gray;
+ text-decoration: underline;
+}
+
+#b > p:hover{
+    cursor: none;
+    color: white;
+    text-decoration: none;
+}

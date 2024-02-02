@@ -1,0 +1,33 @@
+.searchBar{
+    margin: 0;
+    padding: 0;
+    background-color : #4c63d6;
+    /* gap : 20px; */
+    border:1px solid #4c63d6;
+    width : auto;
+    height:250px;
+    display:flex;
+    flex-direction : column;
+    justify-content : center;
+    align-items : center;
+}
+.upper p{
+    font-size: 40px;
+    font-weight: bold;
+}
+.lower input{
+    margin:0;
+    padding:0;
+    width : 257px;
+    height: 36px;
+    border-radius : 10px;
+    border : 2px solid black;
+    font-size: 20px;
+    text-align : center;
+  
+    /* color : red; */
+}
+.lower input ::placeholder{
+    font-size: 20px;
+    color: red;
+}
